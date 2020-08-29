@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Gallo Giro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto+Slab:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="inner__site">
+            <a href="/" class="back__logo">
+                <img src="/assets/img/logo__gallo.png" alt="Logo el gallo giro" class="logo__header">
+            </a>
+            <nav>
+                <li><a href="tienda.html" class="item__menu--link">Tienda</a></li>
+                <li><a href="recetas.html" class="item__menu--link">Recetas</a></li>
+                <li><a href="historia.html" class="item__menu--link">Historia</a></li>
+                <li><a href="contacto.html" class="item__menu--link">Contacto</a></li>
+                <li class="trigger__cart">
+
+                    <a href="" class="item__menu--link shop__cart ">
+                        <span class="total__item__shop">4</span>
+                        <span class="icon__gall shop"></span>
+                    </a>
+
+                    <div class="ctn__header__cart ">
+                        <div class="inner__header__cart">
+                            <strong class="title__header__cart">Carrito de compras</strong>
+                            <ul class="list__header__cart">
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/productos/barbacoa@2x.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Barbacoa</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/productos/chilorio@2x.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Chilorio</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/productos/pollo__mole@2x.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Pollo con mole</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="total__header__cart ">
+                            <div class="row mb-2 row d-flex justify-content-between">
+                                <b>Total</b> 
+                                <b class="total__number__cart">$269.87</b>
+                            </div>
+                            <div class="row d-flex justify-content-between">
+                                <a href="cart.html" class="btn__ga outline__red__btn">Ver carrito</a>
+                                <a href="" class="btn__ga red__btn">Pagar</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+            </nav>
+            <div class="soc__options">
+                <ul>
+                    <li><a href=""><span class="icon__gall yt"></span></a></li>
+                    <li><a href=""><span class="icon__gall fb"></span></a></li>
+                    <li><a href=""><span class="icon__gall tw"></span></a></li>
+                    <li><a href=""><span class="icon__gall in"></span></a></li>
+                </ul>
+            </div>
+            <button class="close__menu">
+                <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                    <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"></path>
+                    <path class="line middle" d="m 30,50 h 40"></path>
+                    <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"></path>
+                </svg>                  
+            </button>
+        </div>
+    </header>
+
+    <div class="ctn__home__recipes pt-5">
+        <div class="inner__site mt-0 mt-md-5">
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="card__recipe large video animate__animated animate__fadeInUp popup-video" href="https://www.youtube.com/watch?v=Vj2PyuOnbsE">
+                        <div class="wrap__img" style="background-image: url('/assets/img/recetas/burrito-cochinita.jpg');">
+                            <span class="icon__gall playrecipe"></span>
+                        </div>
+                        <div class="wrap__info__recipe">
+                            <div class="wrap__rating">
+                                <select class="select__rating">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                                
+                            </div>
+                            <h5 class="type__recipe">Burrito de Cochinita Pibil</h5>
+                            <div class="desc__recipe"><p>Para los amantes de los burritos, esta versión de cochinita pibil, frijoles refritos con tocino y aguacate. Acompañados con cebollas moradas encurtidas y la clásica salsa negra de habanero. ¡Te fascinarán!</p></div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row mt-5 mb-2 animate__animated animate__fadeInUp">
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="p-3 ctn__ingredients">
+                        <h3 class="tit__steps font-weight-bolder mb-4">Ingredientes</h3>
+                        <ul>
+                            <li>1 lata de cochinilla pibil</li>
+                            <li>1/4 tazas de jugo de limón</li>
+                            <li>1 cebolla morada, fileteada</li>
+                            <li>1 cucharadita de orégano seco</li>
+                            <li>3 chiles habaneros, fileteado, desvenado y sin semillas</li>
+                            <li>1/4 tazas de tocino, picado</li>
+                            <li>1 taza de frijoles refritos</li>
+                            <li>1 cucharada de Chile chipotle molido</li>
+                            <li>al gusto de sal y pimienta</li>
+                            <li>1/4 cucharaditas de comino</li>
+                            <li>1 cucharada de aceite vegetal</li>
+                            <li>3 cucharadas de jugo de naranja, agria</li>
+                            <li>4 Tortillas de harina</li>
+                            <li>1 aguacate, en rebanadas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="p-3 ctn__preparation">
+                        <h3 class="tit__steps font-weight-bolder mb-4">Preparación</h3>
+                        <ol>
+                           
+                            <li>Para las cebollitas, en un tazón mezcla el vinagre con el jugo de limón, la cebolla, el orégano, el chile habanero, sal y pimienta al gusto. Marina alrededor de 1 hora o hasta que las cebollitas cambien de color.</li>
+                            <li>En una sartén a fuego medio, cocina el tocino hasta que esté dorado, agrega los frijoles, el chipotle y cocina 5 minutos, sazona con sal, pimienta y comino al gusto. Reserva.</li>
+                            <li>En una sartén a fuego medio, calienta la cochinita pibil con una cucharada de aceite, agrega el jugo de naranja y cocina 10 minutos. Rectifica sazón.</li>
+                            <li>Arma los burritos untando un poco de frijoles en cada Tortillas de harina Northgate, agrega la cochinita pibil y rebanadas de aguacate. Cierra a manera de burrito.</li>
+                            <li>Parrilla los burritos en un sartén parrilla a fuego alto, córtalos por la mitad y sirve con las cebollitas encurtidas, cilantro y salsa de habanero.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <h5 class="text-center heading__section mt-2 color__red mb-5 mt-5">Recetas relacionadas</h5>
+            <div class="grid__recipes">
+                <div class="row mt-5">
+                    <div class="col-12 col-sm-6 col-md-4 mb-5 animate__animated animate__fadeInUp">
+                        <a href="interior-receta.html" class="text-decoration-none">
+                            <div class="card__recipe">
+                                <div class="wrap__img" style="background-image: url('/assets/img/recetas/tacos-de-cochinita.jpg');">
+                                    <span class="icon__gall camera"></span>
+                                </div>
+                                <div class="wrap__info__recipe">
+                                    <div class="wrap__rating">
+                                        <select class="select__rating">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        
+                                    </div>
+                                    <h5 class="type__recipe">Auténticos tacos de cochinita pibil</h5>
+                                    <div class="desc__recipe"><p>Desde Yucatán llegan a tu cocina los auténticos tacos de cochinita pibil. Disfruta de su sabor con la receta que tenemos para ti. </p></div>
+                                    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-5 animate__animated animate__fadeInUp">
+                        <a href="interior-receta.html" class="text-decoration-none">
+                            <div class="card__recipe">
+                                <div class="wrap__img" style="background-image: url('/assets/img/recetas/chicharron-en-salsa-verde.jpg');">
+                                    <span class="icon__gall camera"></span>
+                                </div>
+                                <div class="wrap__info__recipe">
+                                    <div class="wrap__rating">
+                                        <select class="select__rating">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        
+                                    </div>
+                                    <h5 class="type__recipe">Chicharrón en salsa verde</h5>
+                                    <div class="desc__recipe"><p>Uno de esos platillos que todos amamos comer y disfrutar a lo grande sin duda alguna es el chicharrón en salsa verde</p></div>
+                                    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-5 animate__animated animate__fadeInUp">
+                        <a href="interior-receta.html" class="text-decoration-none">
+                            <div class="card__recipe">
+                                <div class="wrap__img" style="background-image: url('/assets/img/recetas/flautas-barbacoa.jpg');">
+                                    <span class="icon__gall camera"></span>
+                                </div>
+                                <div class="wrap__info__recipe">
+                                    <div class="wrap__rating">
+                                        <select class="select__rating">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        
+                                    </div>
+                                    <h5 class="type__recipe">Flautas de barbacoa</h5>
+                                    <div class="desc__recipe"><p>La barbacoa es un clásico de los domingos en México, y está receta de flautas es perfecta para aprovechar lo que te sobró y preparar un delicioso platillo. </p></div>
+                                    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-5 animate__animated animate__fadeInUp">
+                        <a href="interior-receta.html" class="text-decoration-none">
+                            <div class="card__recipe">
+                                <div class="wrap__img" style="background-image: url('/assets/img/recetas/chilaquiles-de-mole.jpg');">
+                                    <span class="icon__gall camera"></span>
+                                </div>
+                                <div class="wrap__info__recipe">
+                                    <div class="wrap__rating">
+                                        <select class="select__rating">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        
+                                    </div>
+                                    <h5 class="type__recipe">Chilaquiles de mole</h5>
+                                    <div class="desc__recipe">
+                                        <p>Si creíste que ya los habías probado todos, entonces no conoces estos deliciosos chilaquiles de mole. ¡Aprende a prepararlos!</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-5 animate__animated animate__fadeInUp">
+                        <a href="interior-receta.html" class="text-decoration-none">
+                            <div class="card__recipe">
+                                <div class="wrap__img" style="background-image: url('/assets/img/recetas/deshebrada-al-chipotle.jpg');">
+                                    <span class="icon__gall camera"></span>
+                                </div>
+                                <div class="wrap__info__recipe">
+                                    <div class="wrap__rating">
+                                        <select class="select__rating">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3" selected>3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        
+                                    </div>
+                                    <h5 class="type__recipe">Carne Deshebrada al Chipotle</h5>
+                                    <div class="desc__recipe">
+                                        <p>Prepara este platillo clásico de las familias mexicanas: rica y jugosa carne deshebrada al chipotle con papas. Su toque picosito y el delicioso sabor del chorizo le dan un toque excepcional. </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-5 animate__animated animate__fadeInUp">
+                        <a href="interior-receta.html" class="text-decoration-none">
+                            <div class="card__recipe">
+                                <div class="wrap__img" style="background-image: url('/assets/img/recetas/tacos-de-pollo.jpg');">
+                                    <span class="icon__gall camera"></span>
+                                </div>
+                                <div class="wrap__info__recipe">
+                                    <div class="wrap__rating">
+                                        <select class="select__rating">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        
+                                    </div>
+                                    <h5 class="type__recipe">Tacos de Pollo Ahogados en Salsa Roja</h5>
+                                    <div class="desc__recipe">
+                                        <p>Prepara esta receta de deliciosos tacos dorados de pollo, ahogados en una salsa roja que harán que te chupes los dedos. Estos taquitos ahogados son ideales para que los hagas esta tarde, para la hora de la comida, te quedarán crujientes y no te arrepentirás. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="inner__site">
+            <div class="row">
+                
+                <div class="col-12 col-md-4 block__sections">
+                    <ul>
+                        <li><a href="tienda.html">Tienda</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="privacidad.html">Aviso de privacidad</a></li>
+                        <li><a href="terminos-condiciones.html">Términos y condiciones</a></li>
+                        <li><a href="privacidad.html">Aviso de Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 block__direction">
+                    <p><strong>Contáctanos</strong></p>
+                    <p>
+                        <span class="icon__gall marker"></span>
+                        Carretera Central km 612 Matehuala, S.L.P. CP 78700
+                    </p>
+                    <p>
+                        <span class="icon__gall tel"></span>
+                        (01) 488 882 1491
+                    </p>
+                    <p>
+                        <span class="icon__gall mail"></span>
+                        <a class="text-break word-wrap" href="mailto:comentarios@lassevillanas.com.mx">comentarios@lassevillanas.com.mx</a>
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="ctn__form__news">
+                        <p><strong>Suscríbete a nuestro Newsletter</strong></p>
+                        <form action="" method="POST" id="form__newsletter">
+                            <input type="text" name="mail__newsletter">
+                            <button type="button" class="send__news"></button>
+                        </form>
+                    </div>
+                    <ul class="ctn__foot__social">
+                        <p><strong>Síguenos</strong></p>
+                        <li><a href=""><span class="icon__gall yt"></span></a></li>
+                        <li><a href=""><span class="icon__gall fb"></span></a></li>
+                        <li><a href=""><span class="icon__gall tw"></span></a></li>
+                        <li><a href=""><span class="icon__gall in"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center ctn__copy">
+                    <p>© Copyright <script>document.write(new Date().getFullYear())</script> Las Sevillanas</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/js/jquery.barrating.min.js"> </script>
+    <script src="assets/js/jquery.magnific-popup.min.js"> </script>
+    <script src="assets/js/base.js"> </script>
+    
+</body>
+</html>
