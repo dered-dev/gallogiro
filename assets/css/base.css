@@ -252,7 +252,7 @@ img{
     border: none;
     background-color: transparent;
 }
-.ctn__header__cart .wrap__quantity {
+.wrap__quantity {
     margin-bottom: 0!important;
     background-color:rgba(160, 35, 33, 0.10);
     padding-left: 0.25rem;
@@ -574,7 +574,6 @@ footer .block__sections a:hover{
     background-color: #A02321;
     border: 2px solid #A02321;
     box-shadow: 0 4px 10px rgba(204, 158, 158, 0.5);
-    
 }
 
 .btn__ga.outline__red__btn{
@@ -606,6 +605,10 @@ footer .block__sections a:hover{
 }
 .heading__section{
     font-size: 2.5rem;
+    font-family: 'Roboto Slab', serif;
+}
+.subheading__section{
+    font-size: 2rem;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -801,6 +804,9 @@ footer .block__sections a:hover{
     .heading__section{
         font-size: 2rem;
     }
+    .subheading__section{
+        font-size: 1.25rem;
+    }
     .grid__instagram .follow__desc{
         font-size: 1.25rem;
     }
@@ -902,4 +908,5 @@ footer .block__sections a:hover{
     footer .inner__site .block__sections{
         margin-bottom: 2rem;
     }
+    
 }

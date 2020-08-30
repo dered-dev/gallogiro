@@ -46,6 +46,11 @@ $(function(){
             controls: false
         });
     }
+    if($('.slider-product').length > 0) {
+        $('.slider-product').bxSlider({
+            pager: false
+        });
+    }
 
     // open / clos menu
     $('.close__menu').click(function(e){    
