@@ -57,6 +57,7 @@ $(function(){
         e.preventDefault()
         $('.header').toggleClass('open')
         $('.header nav').toggleClass('open')
+        $('.header').hasClass('open') ? $('body').css('overflow-y','hidden'): $('body').css('overflow-y','auto')
     })
 
     if($('.select__rating').length > 0){
