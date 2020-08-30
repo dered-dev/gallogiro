@@ -19,7 +19,7 @@
 }
 
 .breadcrumb__site a:last-of-type {
-    color: #c60969;
+    color: #A02321;
 }
 
 .breadcrumb__site .divider {
@@ -30,7 +30,7 @@
     width: 50px;
     display: inline-block;
     vertical-align: middle;
-    border-bottom: 1px solid #B52A69;
+    border-bottom: 1px solid #A02321;
 }
 
 .table__cart .table__item__img {
@@ -51,7 +51,7 @@
 }
 
 .table__cart .divider__cart {
-    border-bottom: 1px solid #B52A69;
+    border-bottom: 1px solid #A02321;
     opacity: .4;
 }
 
@@ -72,8 +72,16 @@
 .ctn__payment__confirm input[type="phone"] {
     border: 1px solid #000;
     font-size: .875rem;
+    line-height: 3rem;
+    height: 3rem;
 }
 
+.ctn__payment__confirm select{
+    border: 1px solid #000;
+    font-size: .875rem;
+    line-height: 3rem;
+    height: 3rem;
+}
 .ctn__payment__confirm .title__section {
     font-size: 1.5rem;
     font-weight: 500;
@@ -109,8 +117,8 @@
 }
 
 .chiller_cb input:checked~span {
-    background: #c60969;
-    border-color: #c60969;
+    background: #A02321;
+    border-color: #A02321;
 }
 
 .chiller_cb input:checked~span:before {
@@ -179,7 +187,7 @@
 }
 
 .terms__and__options .chiller_cb a:hover{
-    color: #B52A69;
+    color: #A02321;
     text-decoration: underline;
 }
 .table__resume__products td{
@@ -200,17 +208,16 @@
 
 /* The radio */
 .radio {
- 
     display: block;
-   position: relative;
-   padding-left: 30px;
-   margin-bottom: 12px;
-   cursor: pointer;
-   font-size: .875rem;
-   -webkit-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
-   user-select: none
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: .875rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
 }
 
 /* Hide the browser's default radio button */
@@ -229,7 +236,7 @@
    height: 20px;
    width: 20px;
    background-color: #fff ;
-   border-color:#c60969;
+   border-color:#A02321;
    border-style:solid;
    border-width:2px;
     border-radius: 50%;
@@ -260,7 +267,7 @@
    width: 12px;
    height: 12px;
    border-radius: 50%;
-   background:#c60969;
+   background:#A02321;
    
 
 }

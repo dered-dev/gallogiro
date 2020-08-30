@@ -72,5 +72,26 @@ $(function(){
             fixedContentPos: true
         });
     }
+
+    $(".only__numbers").keypress(function (e) {
+        //if the letter is not digit then display error and don't type anything
+        if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+            $(this).addClass('error')
+            return false;
+        }
+    });
+
+    $('#method__card').change(function(){
+        if($(this).is(':checked')){
+            $('.wrap__payment__card').removeClass('d-none')
+            $('.wrap__payment__card').addClass('d-flex')
+        }
+    })
+    $('#method__paypal').change(function(){
+        if($(this).is(':checked')){
+            $('.wrap__payment__card').removeClass('d-flex')
+            $('.wrap__payment__card').addClass('d-none')
+        }
+    })
     
 })

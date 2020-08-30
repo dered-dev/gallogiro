@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Gallo Giro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto+Slab:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/shop.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="inner__site">
+            <a href="/" class="back__logo">
+                <img src="/assets/img/logo__gallo.png" alt="Logo el gallo giro" class="logo__header">
+            </a>
+            <nav>
+                <li><a href="tienda.html" class="item__menu--link">Tienda</a></li>
+                <li><a href="recetas.html" class="item__menu--link">Recetas</a></li>
+                <li><a href="historia.html" class="item__menu--link">Historia</a></li>
+                <li><a href="contacto.html" class="item__menu--link">Contacto</a></li>
+                <li class="trigger__cart">
+
+                    <a href="" class="item__menu--link shop__cart ">
+                        <span class="total__item__shop">4</span>
+                        <span class="icon__gall shop"></span>
+                    </a>
+
+                    <div class="ctn__header__cart ">
+                        <div class="inner__header__cart">
+                            <strong class="title__header__cart">Carrito de compras</strong>
+                            <ul class="list__header__cart">
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/productos/barbacoa@2x.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Barbacoa</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/productos/chilorio@2x.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Chilorio</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/productos/pollo__mole@2x.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Pollo con mole</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="total__header__cart ">
+                            <div class="row mb-2 row d-flex justify-content-between">
+                                <b>Total</b> 
+                                <b class="total__number__cart">$269.87</b>
+                            </div>
+                            <div class="row d-flex justify-content-between">
+                                <a href="cart.html" class="btn__ga outline__red__btn">Ver carrito</a>
+                                <a href="" class="btn__ga red__btn">Pagar</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+            </nav>
+            <div class="soc__options">
+                <ul>
+                    <li><a href=""><span class="icon__gall yt"></span></a></li>
+                    <li><a href=""><span class="icon__gall fb"></span></a></li>
+                    <li><a href=""><span class="icon__gall tw"></span></a></li>
+                    <li><a href=""><span class="icon__gall in"></span></a></li>
+                </ul>
+            </div>
+            <button class="close__menu">
+                <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                    <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"></path>
+                    <path class="line middle" d="m 30,50 h 40"></path>
+                    <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"></path>
+                </svg>                  
+            </button>
+        </div>
+    </header>
+
+    <div class="ctn__payment">
+        <div class="inner__site pt-2 pt-md-5">
+            <div class="title__shop mt-3 mt-md-5 mb-2 mb-md-5">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 ">
+                        <h1 class="heading__section color__red">Pago y confirmación</h1>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="ctn__payment__confirm mb-5">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <h2 class="subheading__section color__red mt-3 mb-3 mt-md-4 mb-md-4">Detalle de tu pedido</h2>
+                        <table class="table table__resume__products">
+                            <tbody>
+                                <tr>
+                                    <td scope="row"><b>Pollo con mole</b></td>
+                                    <td class="text-right">$180.00</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row"><b>Caldo tlalpeño</b></td>
+                                    <td class="text-right">$140.00</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row"><b>Deshebrada de pollo</b></td>
+                                    <td class="text-right">$140.00</td>
+                                </tr>
+                                <tr class="total bg__light__pink">
+                                    <td scope="row"><b>Total</b></td>
+                                    <td class="text-right color__red"><b>$479.74</b></td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-12 col-md-12">
+                        <form action="" method="POST">
+                            <div class="row">
+                                <div class="col-12 col-md-5">
+                                    <h2 class="subheading__section color__red mt-3 mb-3 mt-md-4 mb-md-4">Información de entrega</h2>
+                                    <div class="ctn__recive__info">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label for="name">Nombre</label>
+                                                    <input type="text" class="form-control" id="name" placeholder="Nombre">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label for="name">Apellidos</label>
+                                                    <input type="text" class="form-control" id="name" placeholder="Apellidos">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label for="name">Correo electrónico</label>
+                                                    <input type="email" class="form-control" id="name" placeholder="name@example.com">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label for="name">Ciudad</label>
+                                                    <input type="text" class="form-control" id="name" placeholder="name@example.com">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label for="name">CP</label>
+                                                    <input type="text" class="form-control" id="name" placeholder="name@example.com">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label for="name">Direccion</label>
+                                                    <input type="text" class="form-control" id="name" placeholder="name@example.com">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label for="name">Teléfono</label>
+                                                    <input type="phone" class="form-control" id="name" placeholder="name@example.com">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <h2 class="subheading__section color__red mt-3 mb-3 mt-md-4 mb-md-5">Selecciona método de pago</h2>
+                                    <div class="ctn__method__payment">
+                                        <div class="wrap__select__method mb-5">
+                                            <div class="row">
+                                                <div class="col-12 col-md-6">
+                                                    <label class="radio">Tarjeta de Débito / Crédito
+                                                        <input type="radio" checked="checked" name="option__method" checked id="method__card">
+                                                        <span class="checkround"></span>
+                                                    </label>
+
+                                                    <div class="list__options__cards d-flex mt-3">
+                                                        <div class="item__card px-3 py-1">
+                                                            <span class="icon__gall large visa"></span>
+                                                        </div>
+                                                        <div class="item__card px-3 py-1">
+                                                            <span class="icon__gall large master"></span>
+                                                        </div>
+                                                        <div class="item__card px-3 py-1">
+                                                            <span class="icon__gall large amex"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6 mt-5 mt-md-0">
+
+                                                    <label class="radio">PayPal
+                                                        <input type="radio" name="option__method" id="method__paypal">
+                                                        <span class="checkround"></span>
+                                                    </label>
+                                                    <div class="list__options__cards d-block mt-3">
+                                                        <div class="item__card px-3 py-1 d-inline-block">
+                                                            <span class="icon__gall large paypal"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wrap__payment__card d-flex clearfix">
+                                            <div class="row">
+
+                                                <div class="col-12 col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="number__card">Numero de tarjeta</label>
+                                                        <input type="text" class="form-control only__numbers" id="number__card" name="number__card" maxlength="12" >
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="name__credit__card">Nombre del tarjetahabiente</label>
+                                                        <input type="text" class="form-control" id="name__credit__card" name="name__credit__card" >
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-8">
+                                                    <div class="row">
+                                                        <div class="form-group col-7">
+                                                            <label for="expiration__month">Fecha de expiración</label>
+                                                            <div class="row">
+                                                                <div class="col-5 pr-0">
+                                                                    <select class="form-control mr-1" id="expiration__month" name="expiration__month">
+                                                                        <option value="01">01</option>
+                                                                        <option value="02">02</option>
+                                                                        <option value="03">03</option>
+                                                                        <option value="04">04</option>
+                                                                        <option value="05">05</option>
+                                                                        <option value="06">06</option>
+                                                                        <option value="07">07</option>
+                                                                        <option value="08">08</option>
+                                                                        <option value="09">09</option>
+                                                                        <option value="10">10</option>
+                                                                        <option value="11">11</option>
+                                                                        <option value="12">12</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-2 d-flex align-items-center pl-0 pr-0 justify-content-center">
+                                                                    <span>/</span>
+                                                                </div>
+                                                                <div class="col-5 pl-0">
+                                                                    <select class="form-control" id="expiration__year" name="expiration__year">
+                                                                        <option value="2020">20</option>
+                                                                        <option value="2021">21</option>
+                                                                        <option value="2022">22</option>
+                                                                        <option value="2023">23</option>
+                                                                        <option value="2024">24</option>
+                                                                        <option value="2025">25</option>
+                                                                        <option value="2026">26</option>
+                                                                        <option value="2027">27</option>
+                                                                        <option value="2028">28</option>
+                                                                        <option value="2029">29</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            
+                                                        </div>
+                                                        <div class="form-group col-5">
+                                                            <label for="number__card">CVV</label>
+                                                            <input type="password" maxlength="4" class="form-control only__numbers" id="number__cvv__card" name="number__cvv__card" >
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="terms__and__options mt-3">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="chiller_cb">
+                                                        <input id="check__terms" type="checkbox">
+                                                        <label for="check__terms">1. Acepto que mis datos personales sean tratados conforme a los términos de <a href=""><b>Aviso de Privacidad</b></a>, los <a href=""><b>Términos y Condiciones de Uso</b></a> y las <a href=""><b>Políticas de Cambios y Cancelación de Reservaciones</b></a>.</label>
+                                                        <span></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-between mt-5 mb-5">
+                                                    <a href="tienda.html" class="btn__ga outline__red__btn rounded-pill">Seguir comprando</a>
+                                                    <a href="reservacion.html" class="btn__ga red__btn rounded-pill pl-5 pr-5">Pagar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="inner__site">
+            <div class="row">
+                
+                <div class="col-12 col-md-4 block__sections">
+                    <ul>
+                        <li><a href="tienda.html">Tienda</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="privacidad.html">Aviso de privacidad</a></li>
+                        <li><a href="terminos-condiciones.html">Términos y condiciones</a></li>
+                        <li><a href="privacidad.html">Aviso de Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 block__direction">
+                    <p><strong>Contáctanos</strong></p>
+                    <p>
+                        <span class="icon__gall marker"></span>
+                        Carretera Central km 612 Matehuala, S.L.P. CP 78700
+                    </p>
+                    <p>
+                        <span class="icon__gall tel"></span>
+                        (01) 488 882 1491
+                    </p>
+                    <p>
+                        <span class="icon__gall mail"></span>
+                        <a class="text-break word-wrap" href="mailto:comentarios@lassevillanas.com.mx">comentarios@lassevillanas.com.mx</a>
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="ctn__form__news">
+                        <p><strong>Suscríbete a nuestro Newsletter</strong></p>
+                        <form action="" method="POST" id="form__newsletter">
+                            <input type="text" name="mail__newsletter">
+                            <button type="button" class="send__news"></button>
+                        </form>
+                    </div>
+                    <ul class="ctn__foot__social">
+                        <p><strong>Síguenos</strong></p>
+                        <li><a href=""><span class="icon__gall yt"></span></a></li>
+                        <li><a href=""><span class="icon__gall fb"></span></a></li>
+                        <li><a href=""><span class="icon__gall tw"></span></a></li>
+                        <li><a href=""><span class="icon__gall in"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center ctn__copy">
+                    <p>© Copyright <script>document.write(new Date().getFullYear())</script> Las Sevillanas</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/js/jquery.bxslider.min.js"> </script>
+    <script src="assets/js/base.js"> </script>
+    
+</body>
+</html>
