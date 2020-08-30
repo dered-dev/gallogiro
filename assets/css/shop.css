@@ -58,10 +58,12 @@
 .table__cart .total__table__cart {
     font-size: 1.5rem;
 }
-.table__cart .wrap__quantity{
+
+.table__cart .wrap__quantity {
     max-width: 87px;
 }
-.ctn__payment{
+
+.ctn__payment {
     margin-top: 72px;
 }
 
@@ -76,12 +78,13 @@
     height: 3rem;
 }
 
-.ctn__payment__confirm select{
+.ctn__payment__confirm select {
     border: 1px solid #000;
     font-size: .875rem;
     line-height: 3rem;
     height: 3rem;
 }
+
 .ctn__payment__confirm .title__section {
     font-size: 1.5rem;
     font-weight: 500;
@@ -125,6 +128,10 @@
     width: 1rem;
     height: 0.15rem;
     transition: width 0.1s;
+    -webkit-transition: width 0.1s;
+    -moz-transition: width 0.1s;
+    -ms-transition: width 0.1s;
+    -o-transition: width 0.1s;
     transition-delay: 0.3s;
 }
 
@@ -133,6 +140,10 @@
     height: 0.15rem;
     transition: width 0.1s;
     transition-delay: 0.2s;
+    -webkit-transition: width 0.1s;
+    -moz-transition: width 0.1s;
+    -ms-transition: width 0.1s;
+    -o-transition: width 0.1s;
 }
 
 .chiller_cb input:disabled~span {
@@ -171,38 +182,50 @@
 }
 
 .chiller_cb span:before {
-    transform: rotate(-55deg);
     top: 1rem;
     left: 0.37rem;
+    transform: rotate(-55deg);
+    -webkit-transform: rotate(-55deg);
+    -moz-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    -o-transform: rotate(-55deg);
 }
 
 .chiller_cb span:after {
-    transform: rotate(35deg);
     bottom: 0.35rem;
     left: 0.2rem;
+    transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
 }
-.terms__and__options .chiller_cb a{
+
+.terms__and__options .chiller_cb a {
     color: #000;
     text-decoration: none;
 }
 
-.terms__and__options .chiller_cb a:hover{
+.terms__and__options .chiller_cb a:hover {
     color: #A02321;
     text-decoration: underline;
 }
-.table__resume__products td{
+
+.table__resume__products td {
     font-weight: 400;
 }
-.ctn__method__payment .form-check-label{
+
+.ctn__method__payment .form-check-label {
     font-size: .875rem;
 }
 
-.list__options__cards .item__card{
+.list__options__cards .item__card {
     border-radius: 24px;
     border: 1px solid #D8D8D8;
     margin-right: 1rem;
 }
-.list__options__cards .item__card:last-of-type{
+
+.list__options__cards .item__card:last-of-type {
     margin-right: 0;
 }
 
@@ -222,62 +245,60 @@
 
 /* Hide the browser's default radio button */
 .radio input {
-   position: absolute;
-   opacity: 0;
-   cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
 
 /* Create a custom radio button */
 .checkround {
 
-   position: absolute;
-   top: 0;
-   left: 0;
-   height: 20px;
-   width: 20px;
-   background-color: #fff ;
-   border-color:#A02321;
-   border-style:solid;
-   border-width:2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-color: #A02321;
+    border-style: solid;
+    border-width: 2px;
     border-radius: 50%;
 }
 
-
-/* When the radio button is checked, add a blue background */
-.radio input:checked ~ .checkround {
-   background-color: #fff;
+.radio input:checked~.checkround {
+    background-color: #fff;
 }
 
-/* Create the indicator (the dot/circle - hidden when not checked) */
 .checkround:after {
-   content: "";
-   position: absolute;
-   display: none;
+    content: "";
+    position: absolute;
+    display: none;
 }
 
-/* Show the indicator (dot/circle) when checked */
-.radio input:checked ~ .checkround:after {
-   display: block;
+.radio input:checked~.checkround:after {
+    display: block;
 }
 
-/* Style the indicator (dot/circle) */
 .radio .checkround:after {
     left: 2px;
-   top: 2px;
-   width: 12px;
-   height: 12px;
-   border-radius: 50%;
-   background:#A02321;
-   
-
+    top: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #A02321;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
-@media screen and (max-width: 1300px){
-    .ctn__payment{
+@media screen and (max-width: 1300px) {
+    .ctn__payment {
         padding-left: 2rem;
         padding-right: 2rem;
     }
 }
+
 @media screen and (max-width: 1240px) {
     .ctn__cart__resume {
         padding-left: 2rem;
@@ -331,17 +352,21 @@
     .title__shop .shop__location {
         display: none;
     }
-    .ctn__payment{
+
+    .ctn__payment {
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    .chiller_cb label{
+
+    .chiller_cb label {
         font-size: .75rem;
     }
-    .ctn__payment__confirm .title__section{
+
+    .ctn__payment__confirm .title__section {
         font-size: 1.125rem;
     }
-    .table__resume__products td{
+
+    .table__resume__products td {
         font-size: .875rem;
     }
 }

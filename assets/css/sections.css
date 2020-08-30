@@ -1,28 +1,28 @@
 .ctn__products,
-.ctn__home__recipes{
+.ctn__home__recipes {
     margin-top: 72px;
 }
+
 .content__text,
-.ctn__historia{
+.ctn__historia {
     margin-top: 120px;
 }
 
 /* Recetas */
-
-/* Recipes */
-
-.card__recipe{
+.card__recipe {
     background-color: #fff;
-    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
     border-radius: 8px;
     overflow: hidden;
     height: 100%;
 }
-.card__recipe.large{
+
+.card__recipe.large {
     display: flex;
 }
-.card__recipe.large .wrap__img{
-    width: 60%;  
+
+.card__recipe.large .wrap__img {
+    width: 60%;
     display: inline-block;
     min-height: 400px;
     background-size: cover;
@@ -30,10 +30,12 @@
     background-position: center center;
     position: relative;
 }
-.card__recipe.large.video .wrap__img{
+
+.card__recipe.large.video .wrap__img {
     cursor: pointer;
 }
-.card__recipe.large .wrap__img:after{
+
+.card__recipe.large .wrap__img:after {
     content: "";
     position: absolute;
     left: 0;
@@ -42,43 +44,50 @@
     height: 100px;
     z-index: 1;
     background-color: #fff;
-    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.79) 99%, rgba(0,0,0,.8) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.79) 99%,rgba(0,0,0,.8) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.79) 99%,rgba(0,0,0,.8).8100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.79) 99%, rgba(0, 0, 0, .8) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.79) 99%, rgba(0, 0, 0, .8) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.79) 99%, rgba(0, 0, 0, .8).8100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000', GradientType=0);
+    -webkit-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000', GradientType=0);
 }
-.card__recipe.large.video .wrap__img:after{
+
+.card__recipe.large.video .wrap__img:after {
     top: 0;
     height: 100%;
 }
-.card__recipe.large .wrap__info__recipe{
+
+.card__recipe.large .wrap__info__recipe {
     width: 40%;
     padding: 2rem;
 }
-.card__recipe.large .wrap__info__recipe .type__recipe{
+
+.card__recipe.large .wrap__info__recipe .type__recipe {
     font-size: 2rem;
     font-weight: 700;
     margin-top: 1rem;
     color: #A02321;
     font-family: 'Roboto Slab', serif;
 }
-.card__recipe.large .wrap__info__recipe .cat{
+
+.card__recipe.large .wrap__info__recipe .cat {
     font-size: 1rem;
     font-style: italic;
     color: #A02321;
 }
-.card__recipe.large .wrap__info__recipe .desc__recipe{
+
+.card__recipe.large .wrap__info__recipe .desc__recipe {
     font-size: 1rem;
     color: #000000;
 }
-.card__recipe.large .wrap__img span{
+
+.card__recipe.large .wrap__img span {
     position: absolute;
     left: 1rem;
     bottom: 1rem;
     z-index: 2;
 }
 
-.card__recipe.large .wrap__img .playrecipe{
+.card__recipe.large .wrap__img .playrecipe {
     left: 0;
     right: 0;
     top: 0;
@@ -92,24 +101,32 @@
     z-index: 2;
     cursor: pointer;
     transition: all linear .25s;
+    -webkit-transition: all linear .25s;
+    -moz-transition: all linear .25s;
+    -ms-transition: all linear .25s;
+    -o-transition: all linear .25s;
 }
-.card__recipe.large .wrap__img:hover .playrecipe{
-    transform: scale(1.2,1.2);
+
+.card__recipe.large .wrap__img:hover .playrecipe {
+    transform: scale(1.2, 1.2);
 }
-.grid__recipes .card__recipe .wrap__img{
+
+.grid__recipes .card__recipe .wrap__img {
     min-height: 380px;
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
-.grid__recipes .card__recipe .wrap__img span{
+
+.grid__recipes .card__recipe .wrap__img span {
     position: absolute;
     left: 1rem;
     bottom: 1rem;
     z-index: 2;
 }
-.grid__recipes .card__recipe .wrap__img:after{
+
+.grid__recipes .card__recipe .wrap__img:after {
     content: "";
     position: absolute;
     left: 0;
@@ -118,41 +135,48 @@
     height: 100px;
     z-index: 1;
     background-color: #fff;
-    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.79) 99%, rgba(0,0,0,.8) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.79) 99%,rgba(0,0,0,.8) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.79) 99%,rgba(0,0,0,.8).8100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.79) 99%, rgba(0, 0, 0, .8) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.79) 99%, rgba(0, 0, 0, .8) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.79) 99%, rgba(0, 0, 0, .8).8100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000', GradientType=0);
 }
-.grid__recipes .card__recipe .wrap__info__recipe{
+
+.grid__recipes .card__recipe .wrap__info__recipe {
     padding: 1.5rem;
 }
-.grid__recipes .card__recipe .type__recipe{
+
+.grid__recipes .card__recipe .type__recipe {
     font-size: 1.125rem;
     color: #A02321;
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
     margin-top: 1rem;
 }
-.grid__recipes .card__recipe .cat{
+
+.grid__recipes .card__recipe .cat {
     font-size: 1rem;
     font-style: italic;
     color: #A02321;
-    font-weight: 400;  
+    font-weight: 400;
 }
-.grid__recipes .card__recipe .desc__recipe{
+
+.grid__recipes .card__recipe .desc__recipe {
     font-size: 0.875rem;
     color: #000000;
 }
-.ctn__ingredients ul{
+
+.ctn__ingredients ul {
     list-style: none;
     padding-left: 0;
 }
-.ctn__ingredients ul li{
+
+.ctn__ingredients ul li {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     position: relative;
     padding-left: 1.5rem;
 }
+
 .ctn__ingredients ul li::before {
     content: "";
     display: inline-block;
@@ -166,15 +190,18 @@
     left: 0;
     top: 4px;
 }
-.ctn__preparation ol{
+
+.ctn__preparation ol {
     padding-left: 1rem;
 }
-.ctn__preparation ol li{
+
+.ctn__preparation ol li {
     font-size: 1rem;
     margin-bottom: 0.5rem;
 }
+
 .ctn__ingredients h3,
-.ctn__preparation h3{
+.ctn__preparation h3 {
     background-color: #A02321;
     color: #FFFAE8;
     display: inline-block;
@@ -182,85 +209,125 @@
     padding: .5rem 1rem;
 }
 
-.wrap__card .weight__product{
+.wrap__card .weight__product {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
     position: absolute;
     bottom: 0;
     right: 1rem;
     text-align: center;
     line-height: 70px;
     background-color: #fff;
+    color: #A02321;
     transform: translateY(50%);
-    color: #c60969;
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
 }
-.wrap__card a{
+
+.wrap__card a {
     text-decoration: none;
     color: #000;
 }
 
-.inner__contact{
+.inner__contact {
     margin-top: 140px;
     margin-bottom: 3rem;
 }
 
+/* reservacion */
+.ctn__reservacion {
+    margin-top: 120px;
+}
 
+.inner__reservacion {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-@media screen and (max-width: 1300px){
+.ctn__reservacion .title__reservacion {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(160, 35, 33, .10);
+}
+
+.ctn__reservacion a {
+    color: #000;
+}
+
+.ctn__reservacion .aditiona__info {
+    font-size: 0.875rem;
+}
+
+@media screen and (max-width: 1300px) {
     .content__text,
     .ctn__historia,
     .ctn__home__recipes,
     .inner__contact,
-    .ctn__products{
+    .ctn__reservacion .inner__reservacion,
+    .ctn__products {
         padding-left: 2rem;
         padding-right: 2rem;
     }
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 640px) {
+    .ctn__reservacion .inner__reservacion,
     .ctn__historia,
-    .ctn__products{
+    .ctn__products {
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    .ctn__historia{
+
+    .ctn__historia {
         margin-top: 72px;
     }
 
-    .card__recipe.large{
+    .card__recipe.large {
         flex-direction: column;
     }
-    .card__recipe.large .wrap__img{
+
+    .card__recipe.large .wrap__img {
         width: 100%;
         min-height: 250px;
     }
-    .card__recipe.large .wrap__info__recipe{
+
+    .card__recipe.large .wrap__info__recipe {
         width: 100%;
         padding: 1rem;
-        
+
     }
-    .card__recipe.large .wrap__info__recipe .type__recipe{
+
+    .card__recipe.large .wrap__info__recipe .type__recipe {
         font-size: 1.125rem;
     }
+
     .grid__recipes .card__recipe .desc__recipe,
-    .card__recipe.large .wrap__info__recipe .desc__recipe{
+    .card__recipe.large .wrap__info__recipe .desc__recipe {
         font-size: .875rem;
     }
-    .grid__recipes .card__recipe{
+
+    .grid__recipes .card__recipe {
         margin-bottom: 2.5rem;
     }
-    .inner__contact{
+
+    .inner__contact {
         margin-top: 72px;
     }
-    .text__history p{
+
+    .text__history p {
         font-size: 0.875rem;
     }
-    .list__certifications img{
+
+    .list__certifications img {
         max-width: 240px;
     }
-    .content__text p{
+
+    .content__text p {
         font-size: 0.875rem;
     }
 }

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Gallo Giro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto+Slab:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/shop.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="inner__site">
+            <a href="/" class="back__logo">
+                <img src="/assets/img/logo__gallo.png" alt="Logo el gallo giro" class="logo__header">
+            </a>
+            <nav>
+                <li><a href="tienda.html" class="item__menu--link">Tienda</a></li>
+                <li><a href="recetas.html" class="item__menu--link">Recetas</a></li>
+                <li><a href="historia.html" class="item__menu--link">Historia</a></li>
+                <li><a href="contacto.html" class="item__menu--link">Contacto</a></li>
+                <li class="trigger__cart">
+
+                    <a href="" class="item__menu--link shop__cart ">
+                        <span class="total__item__shop">4</span>
+                        <span class="icon__gall shop"></span>
+                    </a>
+
+                    <div class="ctn__header__cart ">
+                        <div class="inner__header__cart">
+                            <strong class="title__header__cart">Carrito de compras</strong>
+                            <ul class="list__header__cart">
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/productos/barbacoa@2x.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Barbacoa</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/productos/chilorio@2x.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Chilorio</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/productos/pollo__mole@2x.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Pollo con mole</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="total__header__cart ">
+                            <div class="row mb-2 row d-flex justify-content-between">
+                                <b>Total</b> 
+                                <b class="total__number__cart">$269.87</b>
+                            </div>
+                            <div class="row d-flex justify-content-between">
+                                <a href="cart.html" class="btn__ga outline__red__btn">Ver carrito</a>
+                                <a href="" class="btn__ga red__btn">Pagar</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+            </nav>
+            <div class="soc__options">
+                <ul>
+                    <li><a href=""><span class="icon__gall yt"></span></a></li>
+                    <li><a href=""><span class="icon__gall fb"></span></a></li>
+                    <li><a href=""><span class="icon__gall tw"></span></a></li>
+                    <li><a href=""><span class="icon__gall in"></span></a></li>
+                </ul>
+            </div>
+            <button class="close__menu">
+                <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                    <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"></path>
+                    <path class="line middle" d="m 30,50 h 40"></path>
+                    <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"></path>
+                </svg>                  
+            </button>
+        </div>
+    </header>
+
+    <div class="ctn__reservacion">
+        <div class="header__section">
+            <div class="inner__reservacion">
+                <h1 class="heading__section color__red mb-3 mb-md-5">Gracias por tu compra</h1>
+            </div>
+        </div>
+        <div class="title__reservacion">
+            <div class="inner__reservacion">
+                <h3 class="mb-0 py-2 py-md-3 subheading__section">Desglose de tu pedido</h3>
+            </div>
+        </div>
+        <div class="inner__reservacion pt-2 pt-md-5">
+            <table class="table table__resume__products mb-5">
+                <tbody>
+                    <tr>
+                        <td scope="row"><b>Pollo con mole</b></td>
+                        <td class="text-right">$180.00</td>
+                    </tr>
+                    <tr>
+                        <td scope="row"><b>Caldo tlalpeño</b></td>
+                        <td class="text-right">$140.00</td>
+                    </tr>
+                    <tr>
+                        <td scope="row"><b>Deshebrada de pollo</b></td>
+                        <td class="text-right">$140.00</td>
+                    </tr>
+                    <tr class="total bg__light__pink">
+                        <td scope="row"><b>Total</b></td>
+                        <td class="text-right color__red"><b>$479.74</b></td>
+                    </tr>
+                    
+                    
+                </tbody>
+            </table>
+
+            <div class="row">
+                <div class="col-12 col-md-6 mt-4 mb-3">
+                    <h4 class="color__red mb-4">Información de entrega</h4>
+                    <p>
+                        Entregar a Juan Perez
+                        
+                    </p>
+                    <p>
+                        <span class="icon__sev marker__black"></span>
+                        Carretera Central km 612 Matehuala, S.L.P. CP 78700
+                    </p>
+                    <p>
+                        <span class="icon__sev tel__black"></span>
+                        (01) 488 882 1491
+                    </p>
+                    <p>
+                        <span class="icon__sev mail__black"></span>
+                        <a href="mailto:contacto@cliente.com">contacto@cliente.com</a>
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 mt-4 mb-3">
+                    <h4 class="color__red mb-4">Método de pago</h4>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="list__options__cards">
+                                <div class="item__card px-3 py-1 d-inline-block mr-3">
+                                    <span class="icon__gall large visa"></span>
+                                </div>
+                                <span>Terminación <b>0523</b></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="title__reservacion mt-4">
+            <div class="inner__reservacion">
+                <h3 class="mb-0 py-2 py-md-3 subheading__section">Información adicional</h3>
+            </div>
+        </div>
+        <div class="inner__reservacion pt-5 mb-5 aditiona__info">
+            <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et magnam quod repellat debitis! Qui tempora molestias laboriosam dolore ullam, non ratione sequi iure impedit nam earum natus labore. Iste, iure?</span><span>Officiis exercitationem dolorem debitis officia animi vitae minima ratione error iusto repellendus, quasi placeat nemo est nihil molestias, dolores, fugiat vero voluptatibus reprehenderit suscipit ad aspernatur culpa eaque veritatis. Qui?</span></p>
+            <p><span>Ducimus esse expedita maiores incidunt ratione iure temporibus, porro praesentium quisquam, optio animi neque non perspiciatis delectus labore odio fugit excepturi quos corporis sapiente officia cumque? Exercitationem, sit dolores? Quaerat.</span><span>Debitis eaque in voluptate rem exercitationem officiis illo ut accusantium molestias consequuntur eveniet modi dicta facere maiores cumque perferendis minima vero, esse ducimus. Deserunt, quos! Mollitia laudantium error enim in!</span></p>
+            <p><span>Labore voluptatibus, magni ullam blanditiis deleniti qui eos! Minus ad doloribus nostrum ab repudiandae ipsum quisquam illo quibusdam aperiam eveniet, eaque, dignissimos tenetur doloremque exercitationem odio quas expedita explicabo! Eligendi?</span><span>Perferendis, est distinctio illo dignissimos quae commodi quo saepe inventore eaque officia quaerat cupiditate hic at temporibus eum assumenda quisquam id a adipisci. Alias minima, atque aut iste eos voluptas.</span></p>
+            <p><span>Corporis sint provident voluptatum fuga facilis quam ducimus sunt inventore molestias sit, dolor exercitationem blanditiis, temporibus harum, numquam consequuntur error? Temporibus molestias inventore, ipsum unde voluptates beatae a voluptas sint?</span><span>Facilis, nemo doloribus porro expedita ipsam debitis maxime, necessitatibus exercitationem velit iusto fuga sunt optio praesentium nihil molestiae nostrum provident quia voluptatibus aliquid blanditiis dicta? Iusto soluta nisi ullam officiis.</span></p>
+            <p><span>Velit reprehenderit voluptate odio quas eius adipisci ut enim maxime nisi voluptatibus, inventore, beatae illum sed? Voluptas inventore, dicta optio tempore, minima sapiente dolorem doloremque possimus vitae iusto assumenda doloribus!</span><span>Iure, sequi natus eveniet commodi ratione quam voluptatibus aliquid ipsam aut, tempora optio esse rerum nemo veniam dolore adipisci. Architecto maiores explicabo voluptatem? Molestiae, odio! Doloribus porro praesentium tempora optio?</span></p>
+            <p><span>Voluptatem, esse? Repellat necessitatibus unde hic architecto officia eum iste, quasi est, tenetur, modi voluptatibus expedita ab inventore quidem culpa. Animi quidem libero nulla distinctio cum quaerat perferendis! Odio, ipsum?</span><span>Voluptatum nihil recusandae officiis provident repudiandae quisquam quia, quam asperiores quas a odio nisi minus fugiat quibusdam, blanditiis dolores perspiciatis ullam? Doloribus nihil praesentium architecto ratione magni quod unde possimus.</span></p>
+            <p><span>Eligendi adipisci deserunt veniam, numquam, nulla, amet quia ducimus sint aspernatur eum obcaecati sunt exercitationem doloribus? Laboriosam id quos provident harum, iure minima optio fugit quaerat exercitationem natus veritatis nemo!</span><span>Est ratione numquam laudantium, nostrum consequuntur repellat quisquam non ea quo impedit minima! Amet nihil veritatis facilis, reiciendis sunt aperiam similique adipisci repudiandae, eaque dolorum nemo officiis commodi dicta hic?</span></p>
+            <p><span>Excepturi, quos ullam neque nostrum nisi autem laborum expedita magnam labore possimus accusantium, velit consequuntur ad aliquid odio, tempore impedit. Hic nam aliquid ut voluptatibus harum! Perferendis obcaecati perspiciatis ducimus.</span><span>Architecto provident, temporibus rerum atque delectus assumenda labore sint error nam, sapiente iure pariatur molestiae sunt ab? Rerum et tempora voluptatem atque in non nulla quibusdam deleniti, eius nihil sit?</span></p>
+            <p><span>Sint, in eveniet molestias sequi maxime eaque, aut obcaecati quis soluta distinctio rem quaerat autem voluptatum at repellat? Nobis architecto dicta odio quaerat molestiae excepturi deleniti repellat nemo soluta doloremque?</span><span>Ullam praesentium tempore accusamus nostrum quaerat, dolores temporibus fuga facere autem? Quisquam, magni autem ratione earum harum ipsum commodi accusantium sed esse quae aliquam deserunt cupiditate debitis impedit quis unde.</span></p>
+            <p><span>Molestias possimus ipsa corrupti eos inventore architecto autem veritatis aperiam quia cumque recusandae sed aut quis fuga vel, nisi in eveniet sit animi? Unde odit, corporis harum doloremque sed debitis?</span><span>Ipsum temporibus quae tempora ipsam nisi quos voluptatem consequuntur architecto, qui consectetur. Eveniet sint neque provident odio, non ratione officia ea at, dolore culpa tenetur, eius repellendus explicabo quidem quos?</span></p>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="inner__site">
+            <div class="row">
+                
+                <div class="col-12 col-md-4 block__sections">
+                    <ul>
+                        <li><a href="tienda.html">Tienda</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="privacidad.html">Aviso de privacidad</a></li>
+                        <li><a href="terminos-condiciones.html">Términos y condiciones</a></li>
+                        <li><a href="privacidad.html">Aviso de Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 block__direction">
+                    <p><strong>Contáctanos</strong></p>
+                    <p>
+                        <span class="icon__gall marker"></span>
+                        Carretera Central km 612 Matehuala, S.L.P. CP 78700
+                    </p>
+                    <p>
+                        <span class="icon__gall tel"></span>
+                        (01) 488 882 1491
+                    </p>
+                    <p>
+                        <span class="icon__gall mail"></span>
+                        <a class="text-break word-wrap" href="mailto:comentarios@lassevillanas.com.mx">comentarios@lassevillanas.com.mx</a>
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="ctn__form__news">
+                        <p><strong>Suscríbete a nuestro Newsletter</strong></p>
+                        <form action="" method="POST" id="form__newsletter">
+                            <input type="text" name="mail__newsletter">
+                            <button type="button" class="send__news"></button>
+                        </form>
+                    </div>
+                    <ul class="ctn__foot__social">
+                        <p><strong>Síguenos</strong></p>
+                        <li><a href=""><span class="icon__gall yt"></span></a></li>
+                        <li><a href=""><span class="icon__gall fb"></span></a></li>
+                        <li><a href=""><span class="icon__gall tw"></span></a></li>
+                        <li><a href=""><span class="icon__gall in"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center ctn__copy">
+                    <p>© Copyright <script>document.write(new Date().getFullYear())</script> Las Sevillanas</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/js/jquery.bxslider.min.js"> </script>
+    <script src="assets/js/base.js"> </script>
+    
+</body>
+</html>
