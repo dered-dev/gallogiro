@@ -6,10 +6,9 @@
     <title>El Gallo Giro</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto+Slab:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/jquery.bxslider.min.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/producto.css">
+    <link rel="stylesheet" href="assets/css/shop.css">
     <link rel="stylesheet" href="assets/css/sections.css">
 </head>
 <body>
@@ -120,105 +119,120 @@
         </div>
     </header>
 
-    <div class="ctn__interior__producto pt-3 pt-md-5">
-        <div class="inner__site">
-            <div class="head__producto">
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="wrap__slide__product mb-3 mb-md-3">
-                            <div class="slider-product">
-                                <div>
-                                    <img src="assets/img/productos/large/pouch_5.png" alt="">
-                                </div>
-                                <div>
-                                    <img src="assets/img/productos/large/pouch_3.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="wrap__list__products pl-5 pr-5">
-                            <h1 class="tit__product font-weight-bold color__pink mb-4">Cochinita Pibil</h1>
-                            <p class="desc__product">Carne de cerdo deshebrada en adobo de achiote estilo Yucatán.</p>
+    <div class="ctn__cart__resume">
+        <div class="inner__site pt-2 pt-md-5">
 
-                            <div class="d-flex mb-4 align-items-center">
-                                <strong class="mr-3">Cantidad:</strong>
-                                <div class="wrap__quantity black">
-                                    <div class="input-group d-flex">
-                                        <input type="button" value="-" class="button-minus" data-field="quantity">
-                                        <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
-                                        <input type="button" value="+" class="button-plus" data-field="quantity">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text-center text-md-left">
-                                <a href="cart.html" class="btn__ga outline__red__btn rounded-pill mr-3">Agregar al carrito</a>
-                                <a href="pago.html" class="btn__ga red__btn rounded-pill ">Comprar</a>
-                            </div>
-                        </div>
+            <div class="title__shop mt-3 mt-md-5">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 ">
+                        <h5 class="heading__section mt-2 color__red">Carrito de compras</h5>
                     </div>
                 </div>
             </div>
 
-
-            <div class="related__products pt-3 pt-md-5 pb-3 pb-md-5">
-                <div class="inner__site">
-                    <h5 class="subheading__section mt-2 color__red">Quienes vieron este producto también compraron</h5>
-        
-                    <div class="grid__products mt-5 mb-3">
+            <div class="table__cart mt-3 mt-md-5">
+                <div class="row align-items-center row__table__item mb-4 d-none d-sm-flex">
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <span>Producto</span>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <span>Presentación</span>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <span>Cantidad</span>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <span>Precio</span>
+                    </div>
+                </div>
+                <div class="row align-items-center row__table__item mb-4">
+                    <div class="col-12 col-md-3 text-center text-md-left table__item__product">
+                        <img src="assets/img/productos/pollo__mole@2x.png" alt="" class="table__item__img mr-2">
+                        <strong>Pollo con mole</strong>
+                    </div>
+                    <div class="col-12 col-md-3 text-left text-md-center text-md-left mt-2 mt-md-0">
+                        <span>Pouch 220g</span>
+                    </div>
+                    <div class="col-6 col-md-3 text-center text-md-left ">
+                        <div class="wrap__quantity black mt-2 mb-2">
+                            <div class="input-group d-inline-flex">
+                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                <input type="text" step="1" max="" value="2" name="quantity" class="quantity-field">
+                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 text-center text-md-left wrap__btn__remove">
                         <div class="row">
-                            <div class="col-12 col-md-4 mb-3">
-                                <div class="grid__products__item">
-                                    <strong class="products__item__title">Cochinita Pibil</strong>
-                                    <img src="assets/img/productlist/cochinita.png" alt="">
-                                    <div class="justify-content-center mt-2 mb-2 price__and__weight">
-                                        <strong>220g</strong>
-                                    </div>
-                                    <p class="description__item">Carne de cerdo deshebrada en adobo de achiote estilo Yucatán.</p>
-                                    <div class="text__center pt-2 pb-2">
-                                        <a href="interior-producto.html" class="btn__ga red__btn rounded-pill ">Ver más
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="17.438" height="12" viewBox="0 0 17.438 12"><g transform="translate(0 -44.916)"><path d="M17.2,47.343l-5.189-5.189A.811.811,0,1,0,10.864,43.3l3.805,3.805H.811a.811.811,0,1,0,0,1.622H14.669l-3.8,3.805a.811.811,0,0,0,1.147,1.147L17.2,48.49A.811.811,0,0,0,17.2,47.343Z" transform="translate(0 3)" fill="#ffffff"/></g></svg>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 mb-3">
-                                <div class="grid__products__item">
-                                    <strong class="products__item__title">Cochinita Pibil</strong>
-                                    <img src="assets/img/productlist/cochinita.png" alt="">
-                                    <div class="justify-content-center mt-2 mb-2 price__and__weight">
-                                        <strong>220g</strong>
-                                    </div>
-                                    <p class="description__item">Carne de cerdo deshebrada en adobo de achiote estilo Yucatán.</p>
-                                    <div class="text__center pt-2 pb-2">
-                                        <a href="interior-producto.html" class="btn__ga red__btn rounded-pill ">Ver más
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="17.438" height="12" viewBox="0 0 17.438 12"><g transform="translate(0 -44.916)"><path d="M17.2,47.343l-5.189-5.189A.811.811,0,1,0,10.864,43.3l3.805,3.805H.811a.811.811,0,1,0,0,1.622H14.669l-3.8,3.805a.811.811,0,0,0,1.147,1.147L17.2,48.49A.811.811,0,0,0,17.2,47.343Z" transform="translate(0 3)" fill="#ffffff"/></g></svg>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 mb-3">
-                                <div class="grid__products__item">
-                                    <strong class="products__item__title">Cochinita Pibil</strong>
-                                    <img src="assets/img/productlist/cochinita.png" alt="">
-                                    <div class="justify-content-center mt-2 mb-2 price__and__weight">
-                                        <strong>220g</strong>
-                                    </div>
-                                    <p class="description__item">Carne de cerdo deshebrada en adobo de achiote estilo Yucatán.</p>
-                                    <div class="text__center pt-2 pb-2">
-                                        <a href="interior-producto.html" class="btn__ga red__btn rounded-pill ">Ver más
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="17.438" height="12" viewBox="0 0 17.438 12"><g transform="translate(0 -44.916)"><path d="M17.2,47.343l-5.189-5.189A.811.811,0,1,0,10.864,43.3l3.805,3.805H.811a.811.811,0,1,0,0,1.622H14.669l-3.8,3.805a.811.811,0,0,0,1.147,1.147L17.2,48.49A.811.811,0,0,0,17.2,47.343Z" transform="translate(0 3)" fill="#ffffff"/></g></svg>
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="col-12 col-md-6"><strong>$180.00</strong></div>
+                            <div class="col-12 col-md-6 wbtn__remove__product text-center"><button class="btn__remove__product"></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center row__table__item mb-4">
+                    <div class="col-12 col-md-3 text-center text-md-left table__item__product">
+                        <img src="assets/img/productos/lata_1@2x.png" alt="" class="table__item__img mr-2">
+                        <strong>Caldo tlalpeño</strong>
+                    </div>
+                    <div class="col-12 col-md-3 text-left text-md-center text-md-left mt-2 mt-md-0">
+                        <span>Lata 420g</span>
+                    </div>
+                    <div class="col-9 col-md-3 text-center text-md-left ">
+                        <div class="wrap__quantity black mt-2 mb-2">
+                            <div class="input-group d-flex">
+                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                <input type="text" step="1" max="" value="2" name="quantity" class="quantity-field">
+                                <input type="button" value="+" class="button-plus" data-field="quantity">
                             </div>
                         </div>
                     </div>
-        
+                    <div class="col-3 col-md-3 text-center text-md-left wrap__btn__remove">
+                        <div class="row">
+                            <div class="col-12 col-md-6"><strong>$140.00</strong></div>
+                            <div class="col-12 col-md-6 wbtn__remove__product text-center"><button class="btn__remove__product"></button></div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div class="row align-items-center row__table__item mb-4">
+                    <div class="col-12 col-md-3 text-center text-md-left table__item__product">
+                        <img src="assets/img/productos/charola_4.png" alt="" class="table__item__img mr-2">
+                        <strong>Deshebrada de pollo</strong>
+                    </div>
+                    <div class="col-12 col-md-3 text-left text-md-center text-md-left mt-2 mt-md-0">
+                        <span>Charola de 300g</span>
+                    </div>
+                    <div class="col-6 col-md-3 text-center text-md-left ">
+                        <div class="wrap__quantity black mt-2 mb-2">
+                            <div class="input-group d-flex">
+                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                <input type="text" step="1" max="" value="2" name="quantity" class="quantity-field">
+                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 text-center text-md-left wrap__btn__remove">
+                        <div class="row">
+                            <div class="col-12 col-md-6"><strong>$140.00</strong></div>
+                            <div class="col-12 col-md-6 wbtn__remove__product text-center"><button class="btn__remove__product"></button></div>
+                        </div>
+                    </div>
+                </div>
 
-            
+                <div class="divider__cart"></div>
+
+                <div class="row mt-5 mb-5 flex-column-reverse flex-sm-row">
+                    <div class="col-12 col-md-7">
+                        <a href="tienda.html" class="btn__ga rounded-pill outline__red__btn">Seguir comprando</a>
+                    </div>
+                    <div class="col-12 col-md-5 d-flex justify-content-between align-items-center mb-5 mb-md-0">
+                        <b>Total</b>
+                        <b class="total__table__cart">$159,98</b>
+                        <a href="pago.html" class="btn__ga rounded-pill pl-5 pr-5 red__btn">Pagar</a>
+                    </div>
+                </div>
+                
+                  
+            </div>
         </div>
     </div>
 
